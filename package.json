@@ -1,0 +1,21 @@
+{
+  "name": "tree-sitter-mql5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "tree-sitter": [
+    {
+      "scope": "source.mql5",
+      "file-types": [
+        "mq5",
+        "mqh"
+      ]
+    }
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

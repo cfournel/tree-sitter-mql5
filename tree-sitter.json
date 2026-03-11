@@ -1,0 +1,42 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "mql5",
+      "camelcase": "Mql5",
+      "title": "Mql5",
+      "scope": "source.mql5",
+      "file-types": [
+        "mql5"
+      ],
+      "injection-regex": "^mql5$",
+      "class-name": "TreeSitterMql5"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "A tree sitter grammar for Metatrader MQL5",
+    "authors": [
+      {
+        "name": "charles-antoine FOURNEL",
+        "email": "charlesantoine.fournel@gmail.com",
+        "url": ""
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/tree-sitter/tree-sitter-mql5",
+      "funding": ""
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": false,
+    "java": false,
+    "node": false,
+    "python": false,
+    "rust": false,
+    "swift": false,
+    "zig": false
+  }
+}
