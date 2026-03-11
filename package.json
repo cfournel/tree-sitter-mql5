@@ -1,8 +1,8 @@
 {
   "name": "tree-sitter-mql5",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "Tree-sitter grammar for MQL5",
+  "main": "bindings/node",
   "tree-sitter": [
     {
       "scope": "source.mql5",
@@ -15,7 +15,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "tree-sitter",
+    "mql5",
+    "grammar"
+  ],
+  "repository": "https: //github.com/cfournel/tree-sitter-mql5",
+  "license": "MIT",
+  "author": "https: //github.com/cfournel"
 }
