@@ -1,6 +1,6 @@
 LANGUAGE_NAME := tree-sitter-mql5
 HOMEPAGE_URL := https://github.com/tree-sitter/tree-sitter-mql5
-VERSION := 0.1.0
+VERSION := 0.2.4
 
 # repository
 SRC_DIR := src
